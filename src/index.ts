@@ -27,7 +27,7 @@ export interface ProfilerOptions {
   outDir: string;
 }
 
-export class Profiler {
+export default class Profiler {
   private events: ProfilerEvent[];
   private outputPath: string;
   private threads: number[];
