@@ -5,7 +5,7 @@ Run a promise (perhaps with p-queue) generating a profiler json suitable to be c
 ## Install
 
 ```
-$ npm install p-profile
+$ npm install p-profiler
 ```
 
 ## Usage

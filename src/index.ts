@@ -77,8 +77,12 @@ export default class Profiler {
       });
   }
 
+  /**
+   * Writes out the profiler.json and returns the output path
+   */
   output() {
-    return fs.writeFileSync(this.outputPath, JSON.stringify(this.events));
+    fs.writeFileSync(this.outputPath, JSON.stringify(this.events));
+    return this.outputPath;
   }
 }
 
