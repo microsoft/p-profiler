@@ -2,6 +2,21 @@
   "name": "p-profiler",
   "entries": [
     {
+      "date": "Mon, 25 May 2020 21:49:00 GMT",
+      "tag": "p-profiler_v0.1.2",
+      "version": "0.1.2",
+      "comments": {
+        "patch": [
+          {
+            "comment": "return output path",
+            "author": "kchau@microsoft.com",
+            "commit": "bfb4f157e5671c6d41a28eb65fea6e28d46ffb98",
+            "package": "p-profiler"
+          }
+        ]
+      }
+    },
+    {
       "date": "Mon, 25 May 2020 21:35:07 GMT",
       "tag": "p-profiler_v0.1.1",
       "version": "0.1.1",

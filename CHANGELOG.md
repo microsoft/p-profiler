@@ -1,8 +1,16 @@
 # Change Log - p-profiler
 
-This log was last generated on Mon, 25 May 2020 21:35:07 GMT and should not be manually modified.
+This log was last generated on Mon, 25 May 2020 21:49:00 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 0.1.2
+
+Mon, 25 May 2020 21:49:00 GMT
+
+### Patches
+
+- return output path (kchau@microsoft.com)
 
 ## 0.1.1
 

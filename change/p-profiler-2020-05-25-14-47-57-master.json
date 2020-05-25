@@ -1,8 +1,0 @@
-{
-  "type": "patch",
-  "comment": "return output path",
-  "packageName": "p-profiler",
-  "email": "kchau@microsoft.com",
-  "dependentChangeType": "patch",
-  "date": "2020-05-25T21:47:57.499Z"
-}
