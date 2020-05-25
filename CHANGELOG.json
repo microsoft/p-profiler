@@ -1,0 +1,26 @@
+{
+  "name": "p-profiler",
+  "entries": [
+    {
+      "date": "Mon, 25 May 2020 21:35:07 GMT",
+      "tag": "p-profiler_v0.1.1",
+      "version": "0.1.1",
+      "comments": {
+        "patch": [
+          {
+            "comment": "adding a p-profiler that is independent of the underlying runner",
+            "author": "kchau@microsoft.com",
+            "commit": "5e9cb6435b64b564786d10583cac1cd64314b396",
+            "package": "p-profiler"
+          },
+          {
+            "comment": "adding a readme and fixng up the default export",
+            "author": "kchau@microsoft.com",
+            "commit": "5e9cb6435b64b564786d10583cac1cd64314b396",
+            "package": "p-profiler"
+          }
+        ]
+      }
+    }
+  ]
+}
