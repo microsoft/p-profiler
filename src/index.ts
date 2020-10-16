@@ -25,6 +25,7 @@ export interface ProfilerOptions {
   concurrency: number;
   prefix: string;
   outDir: string;
+  outFileName?: string;
 }
 
 export default class Profiler {
@@ -33,12 +34,12 @@ export default class Profiler {
   private threads: number[];
 
   constructor(opts: ProfilerOptions) {
-    const { concurrency, outDir, prefix } = opts;
+    const { concurrency, outDir, prefix, outFileName } = opts;
 
     this.events = [];
     this.outputPath = path.join(
       path.resolve(outDir || "."),
-      getTimeBasedFilename(prefix)
+      outFileName ?? getTimeBasedFilename(prefix)
     );
     this.threads = range(concurrency);
   }
