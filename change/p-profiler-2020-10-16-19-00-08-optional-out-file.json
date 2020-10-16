@@ -1,0 +1,8 @@
+{
+  "type": "minor",
+  "comment": "feat: Add option to set output filename",
+  "packageName": "p-profiler",
+  "email": "olwheele@microsoft.com",
+  "dependentChangeType": "patch",
+  "date": "2020-10-16T17:00:08.686Z"
+}
