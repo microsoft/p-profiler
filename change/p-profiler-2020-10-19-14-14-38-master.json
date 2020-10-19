@@ -1,0 +1,8 @@
+{
+  "type": "patch",
+  "comment": "make sure typing allows either prefix / customOutputPath",
+  "packageName": "p-profiler",
+  "email": "kchau@microsoft.com",
+  "dependentChangeType": "patch",
+  "date": "2020-10-19T21:14:38.490Z"
+}

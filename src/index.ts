@@ -23,9 +23,9 @@ const getTimeBasedFilename = (prefix: string) => {
 
 export interface ProfilerOptions {
   concurrency: number;
-  prefix: string;
-  outDir: string;
-  customOutputPath: string;
+  prefix?: string;
+  outDir?: string;
+  customOutputPath?: string;
 }
 
 export default class Profiler {
