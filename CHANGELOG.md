@@ -1,8 +1,16 @@
 # Change Log - p-profiler
 
-This log was last generated on Mon, 19 Oct 2020 21:06:39 GMT and should not be manually modified.
+This log was last generated on Mon, 19 Oct 2020 21:15:46 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 0.2.1
+
+Mon, 19 Oct 2020 21:15:46 GMT
+
+### Patches
+
+- make sure typing allows either prefix / customOutputPath (kchau@microsoft.com)
 
 ## 0.2.0
 

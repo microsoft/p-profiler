@@ -2,6 +2,21 @@
   "name": "p-profiler",
   "entries": [
     {
+      "date": "Mon, 19 Oct 2020 21:15:46 GMT",
+      "tag": "p-profiler_v0.2.1",
+      "version": "0.2.1",
+      "comments": {
+        "patch": [
+          {
+            "comment": "make sure typing allows either prefix / customOutputPath",
+            "author": "kchau@microsoft.com",
+            "commit": "b97abc0c1b2accd7d43df297d7585bc76d4eb4b9",
+            "package": "p-profiler"
+          }
+        ]
+      }
+    },
+    {
       "date": "Mon, 19 Oct 2020 21:06:39 GMT",
       "tag": "p-profiler_v0.2.0",
       "version": "0.2.0",
