@@ -1,5 +1,5 @@
 {
-  "type": "patch",
+  "type": "minor",
   "comment": "support custom output paths",
   "packageName": "p-profiler",
   "email": "kchau@microsoft.com",
