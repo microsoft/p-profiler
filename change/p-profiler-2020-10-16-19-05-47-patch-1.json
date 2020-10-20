@@ -1,0 +1,8 @@
+{
+  "type": "none",
+  "comment": "fix(ci): Replace `checkchange` with `check`",
+  "packageName": "p-profiler",
+  "email": "olwheele@microsoft.com",
+  "dependentChangeType": "none",
+  "date": "2020-10-16T17:05:47.122Z"
+}
