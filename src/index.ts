@@ -92,7 +92,7 @@ export default class Profiler {
    */
   output() {
     const profile = this.otherData ? { traceEvents: this.events, otherData: this.otherData } : this.events;
-    fs.writeFileSync(this.outputPath, JSON.stringify(profile, null, 2));
+    fs.writeFileSync(this.outputPath, JSON.stringify(profile));
     return this.outputPath;
   }
 }
