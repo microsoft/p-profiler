@@ -2,6 +2,21 @@
   "name": "p-profiler",
   "entries": [
     {
+      "date": "Tue, 21 Feb 2023 20:28:43 GMT",
+      "tag": "p-profiler_v0.2.1",
+      "version": "0.2.1",
+      "comments": {
+        "none": [
+          {
+            "author": "ecraig12345@gmail.com",
+            "package": "p-profiler",
+            "commit": "465def7fbd56f993bab4e6ed14e208e73d3a87ef",
+            "comment": "Update build setup"
+          }
+        ]
+      }
+    },
+    {
       "date": "Mon, 19 Oct 2020 21:15:46 GMT",
       "tag": "p-profiler_v0.2.1",
       "version": "0.2.1",
