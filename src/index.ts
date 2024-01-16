@@ -33,10 +33,13 @@ export default class Profiler {
   private outputPath: string;
   private threads: number[];
 
+  private otherData: any;
+
   constructor(opts: ProfilerOptions) {
     const { concurrency, outDir, prefix, customOutputPath } = opts;
 
     this.events = [];
+    this.otherData = undefined;
     this.outputPath =
       customOutputPath ||
       path.join(path.resolve(outDir || "."), getTimeBasedFilename(prefix));
@@ -77,11 +80,19 @@ export default class Profiler {
       });
   }
 
+  setOtherData(key: string, value: any) {
+    if (!this.otherData) {
+      this.otherData = {};
+    }
+    this.otherData[key] = value;
+  }
+
   /**
    * Writes out the profiler.json and returns the output path
    */
   output() {
-    fs.writeFileSync(this.outputPath, JSON.stringify(this.events));
+    const profile = this.otherData ? { traceEvents: this.events, otherData: this.otherData } : this.events;
+    fs.writeFileSync(this.outputPath, JSON.stringify(profile));
     return this.outputPath;
   }
 }

@@ -1,0 +1,8 @@
+{
+  "type": "minor",
+  "comment": "Add option to pass in otherData",
+  "packageName": "p-profiler",
+  "email": "\"ronakjain@microsoft.com\"",
+  "dependentChangeType": "patch",
+  "date": "2022-03-23T08:02:02.135Z"
+}
