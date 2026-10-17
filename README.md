@@ -47,6 +47,16 @@ await pGraph(graph).run(); // returns a promise that will resolve when all the t
 profiler.output();
 ```
 
+You can also add any arbitrary key-value data to the profile json, using the function `setOtherData`. This can be useful in cases where you want to analyze the profile and need more information than what is available in the profile by default.
+
+```js
+const profiler = new Profiler({ concurrency });
+// Add events
+
+profiler.setOtherData("taskGraph", ["putOnShoes", "tieShoes"])
+```
+The profile json format is described [here](https://docs.google.com/document/d/1CvAClvFfyA5R-PhYUmn5OOQtYMH4h6I0nSsKchNAySU/preview). If you haven't used `setOtherData` then json is array of events, otherwise it's an object with `traceEvents` and `otherData` properties.
+
 # Contributing
 
 This project welcomes contributions and suggestions. Most contributions require you to agree to a
